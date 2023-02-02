@@ -14,7 +14,7 @@ or via Docker compose:
 ```yaml
 services:
   mirth_exporter:
-    image: ghcr.io/waytohealth/mirth_channel_exporter:latest
+    image: ghcr.io/t-huebner/mirth_channel_exporter:latest
     restart: always
     ports:
       - "9141:9141"
